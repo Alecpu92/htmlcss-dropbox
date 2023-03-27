@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    float: right;
+    margin: 20px;   
+}
+li{
+    margin-left: 20px;
+    font-size: 15px;
+}
+#logo{
+    margin: 20px;
+    height: 20px;
+}
+button{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 60px;
+    border: 0;
+}
