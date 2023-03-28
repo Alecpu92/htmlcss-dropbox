@@ -6,6 +6,13 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+main{
+    text-align: center;
+    align-items: center;
+}
+section{
+    margin-top: 50px;
+}
 header{
     height: 60px;
     width: 100%;
@@ -63,4 +70,20 @@ li{
     text-align: justify;
     max-width: 900px;
     height: 300px;
+}
+button{
+    width: 90px;
+    height: 30px;  
+}
+input{
+    margin-top: 20px;
+}
+#contenitore-abbonamenti{
+    width: 500px;
+    height: 800px;
+    background-color: red;  
+}
+.colonne-abbonamenti{
+    width: calc(100% / 3);
+    border: 1px;
 }
