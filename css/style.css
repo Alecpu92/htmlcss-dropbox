@@ -34,7 +34,7 @@ li{
     font-size: 15px;
 }
 #logo{
-    margin: 20px;
+    margin: 40px;
     height: 20px;
 }
 #button-start{
@@ -80,7 +80,7 @@ input{
 }
 #contenitore-abbonamenti{
     max-width: 800px;
-    height: 800px;
+    height: 900px;
     background-color: white;
     display: flex;
     flex-direction: row;
