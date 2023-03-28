@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 
@@ -18,14 +19,14 @@
     <header>
         <div>
             <img id="logo" src="img/logo-small.png" alt="logo">
-            <ul>
+            <ul class="lista-header">
                 <li>Perchè Dropbox</li>
                 <li>Funzioni</li>
                 <li>Piani e prezzi</li>
             </ul>
         </div>
         <div>
-            <ul>
+            <ul class="lista-header">
                 <li>Supporto</li>
                 <li>Contatta l'uffico vendite</li>
                 <li>Accedi</li>
@@ -54,7 +55,29 @@
             <input type="checkbox">fatturazione mensile
             <input type="checkbox">fatturazione annuale
             <div id="contenitore-abbonamenti">
-                <div class="colonne-abbonamenti"></div>
+                <div class="colonne-abbonamenti">
+                    <i class="fa-solid fa-person"></i>Singolo
+                    <hr>
+                    <ul>
+                       <h3>Professional</h3>
+                        <li>12.00</li>
+                        <li>/mese</li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-solid fa-person"></i>1 Utente</li>
+                        <li><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro</li>
+                        <li><i class="fa-solid fa-link"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                        <li><button>Prova gratis per 30 giorni</button></li>
+                        <li>oppure acquista ora</li>
+                    </ul>
+                    <hr>
+                    <ul>
+                        <li><h4>Punti salienti del piano</h4></li>
+                        <li><i class="fa-solid fa-check"></i>Invia file fino a 100gb con Dropbox Transfert</li>
+                        <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                    </ul>
+                    
+                </div>
                 <div class="colonne-abbonamenti"></div>
                 <div class="colonne-abbonamenti"></div>
             </div>
