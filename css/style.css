@@ -161,16 +161,12 @@ button{
 }
 #contenitore-business{
     width: 900px;
-    height: 400px;
     margin-left: 300px;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
-    
-    
-
 }
 .caselle-business{
     
@@ -180,6 +176,23 @@ button{
 }
 #img-business{
     max-width: 100%;
+}
+#titolo-partner{
+    text-align: justify;
+    margin-left: 300px;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ul-footer{
+    color: white;
+
+
 }
 
 
