@@ -142,7 +142,7 @@ button{
 }
 #img-partner{
     width: 400px;
-    height: 400px;
+    height: 100%;
     float: left;
 }
 #contenitore-partner{
@@ -159,5 +159,28 @@ button{
     font-size: 15px;
     padding: 20px;   
 }
+#contenitore-business{
+    max-width: 800px;
+    height: 600px;
+    border: solid 1px grey;
+    margin-left: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.caselle-business{
+    border: 1px solid green;
+    min-height: 200px;
+    width: calc(100% / 3);
+    text-align: justify;
+    gap: 10px;
+    font-size: 15px;
+}
+#img-business{
+    max-width: 100%;
+}
+
 
 
