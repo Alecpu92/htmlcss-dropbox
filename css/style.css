@@ -160,22 +160,22 @@ button{
     padding: 20px;   
 }
 #contenitore-business{
-    max-width: 800px;
-    height: 600px;
-    border: solid 1px grey;
+    width: 900px;
+    height: 400px;
     margin-left: 300px;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 10px;
+    
+    
 
 }
 .caselle-business{
-    border: 1px solid green;
-    min-height: 200px;
-    width: calc(100% / 3);
+    
+    width: calc(100% / 3 - 10px);
     text-align: justify;
-    gap: 10px;
     font-size: 15px;
 }
 #img-business{
