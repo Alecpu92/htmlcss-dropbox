@@ -191,8 +191,14 @@ footer{
 }
 .ul-footer{
     color: white;
-
-
+}
+#domande-frequenti{
+    width: 700px;
+    height: 300px;
+    text-align: justify;
+    padding: 30px;
+    margin: 0 auto;
+    line-height: 60px;
 }
 
 
