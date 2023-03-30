@@ -198,6 +198,16 @@ button{
     width: 500px;
     border: solid 1px black;
 }
+#contenitore-porta{
+    width: 100%;
+    height: 300px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 100px;
+}
 
 footer{
     background-color: black;
